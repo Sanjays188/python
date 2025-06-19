@@ -1,5 +1,9 @@
-a,b=10,20
-print(f'a={a}')
-print(f'b={b}')
-a,b=b,a
-print(f'After swapping a={a},b={b}')
+a = 5
+b = 10
+
+temp = a
+a = b
+b = temp
+
+print("a =", a)
+print("b =", b)
